@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
+  background-image: url(./Img/fondo\ hamburgesa.webp);
+  background-position: 20% 40%;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(173, 3, 29);
+}
+ul a {
+  color: rgb(255, 221, 64, 1);
+  text-decoration: none;
+  padding: 1rem;
+  font-size: x-large;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
